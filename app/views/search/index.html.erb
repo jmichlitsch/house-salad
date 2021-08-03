@@ -1,4 +1,9 @@
 <h1><%= @members.count %> Results</h1>
+
+<div class="container">
+<div class="row">
+<div class="col-sm">
+
 <% @members.each do |member| %>
   <section class="member <%= member.party %>">
     <h3 class="name"><%= member.name %></h3>

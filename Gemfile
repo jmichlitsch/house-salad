@@ -19,6 +19,9 @@ gem 'bootsnap'
 gem 'faraday'
 gem 'figaro'
 
+gem 'bootstrap', '~> 4.1'
+gem 'jquery-rails'
+
 group :development, :test do
   gem 'pry'
   gem 'awesome_print'
